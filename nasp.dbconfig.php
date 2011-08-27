@@ -17,8 +17,6 @@ if ($infos) {
     //Get the informations sended via $_POST
     $hostname   = isset ($_POST['dbhost']) ? $_POST['dbhost'] : null;
     $database   = isset ($_POST['dbname']) ? $_POST['dbname'] : null;
-    $user       = isset ($_POST['dbuser']) ? $_POST['dbuser'] : null;
-    $pass       = isset ($_POST['dbpass']) ? $_POST['dbpass'] : null;
 
     $nasp = new MoIPNASP();
 
@@ -30,7 +28,7 @@ if ($infos) {
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-asdContent-Type" content="text/html; charset=UTF-8">
         <title>NASP's Database Configuration</title>
         <style type="text/css">
             .conteudo{
